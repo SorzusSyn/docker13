@@ -22,7 +22,7 @@ services:
       - cloud_db_net
 networks:
   cloud_app_net:
-    driver: brigde
+    driver: bridge
   cloud_db_net:
     driver: bridge
 
